@@ -12,7 +12,7 @@ public class prog1 {
         int x=sc.nextInt();
         int y=sc.nextInt();
 
-        int ans=sub(x,y);
+        int answer=sub(x,y);
         System.out.println(ans);
 
     }
