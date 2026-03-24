@@ -12,8 +12,8 @@ public class prog1 {
         int x=sc.nextInt();
         int y=sc.nextInt();
 
-        int answer=sub(x,y);
-        System.out.println(ans);
+        int res=sub(x,y);
+        System.out.println(res);
 
     }
 }
