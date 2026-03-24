@@ -1,13 +1,18 @@
-public class prog1 {
+import java.util.Scanner;
 
+public class prog1 {
 
     public static int sub(int x,int y) {
         return x - y;
     }
-
-    public static void main(String[] args)
+    public static void main(String[]args)
     {
-        int ans=sub(17,8);
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter ur numbers");
+        int x=sc.nextInt();
+        int y=sc.nextInt();
+
+        int ans=sub(x,y);
         System.out.println(ans);
 
     }
