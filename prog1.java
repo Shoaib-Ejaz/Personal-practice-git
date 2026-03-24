@@ -1,6 +1,6 @@
 int x=5;
-int y=0;
-public static int add()
+int y=1;
+public static int sub()
 {
-    return x+y;
+    return x-y;
 }
