@@ -1,6 +1,5 @@
 public class prog1 {
-    int x = 5;
-    int y = 1;
+
 
     public static int sub(int x,int y) {
         return x - y;
